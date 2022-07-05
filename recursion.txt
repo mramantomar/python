@@ -1,0 +1,13 @@
+recursion:- when a function calls itself then this is called recursion.it is of 2 types:- 
+direct recursion:-
+ex:- def demo():
+	-------------
+	--------------
+	demo()
+indirect recursion:-
+ex:- def demo():
+	---------
+	demo1()
+        def demo1():
+	---------
+	demo()
